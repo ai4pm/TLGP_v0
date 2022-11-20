@@ -114,7 +114,7 @@ xlwt==1.3.0
 
 The python scripts used to generate the Lung cancer and the Prostate cancer in our paper can be found in the following folder:
 
-cd /GWAS\_DTL/diseases
+cd /GWAS\_DTL/examples
 
 python Lung\_cancer\_European\_EastAsian.py
 
