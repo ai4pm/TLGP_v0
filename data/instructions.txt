@@ -1,0 +1,2 @@
+Download all the .mat file from the following link and put them under the data folder.
+https://figshare.com/articles/dataset/GWAS/21097243
