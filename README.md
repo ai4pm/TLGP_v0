@@ -1,7 +1,7 @@
 # TLGP: Transfer Learning for Genomic Prediction
 # Software Description
 
-This is the software script and data of our deep transfer learning method for GWAS (Genome wide Association Study) published on XXX, as well as reproducing the results described in the manuscript.
+Here are the software scripts implementing our deep transfer learning method for multi-ancestral clinico-genomic prediction of diseases and reproducing the results described in the manuscript.
 
 # Software Structure
 
