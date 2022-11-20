@@ -1,5 +1,4 @@
-# TLGP
-Can you change the address to https://github.com/ai4pm/TLGP
+# TLGP: Transfer Learning for Genomic Prediction
 # Software Description
 
 # Overview
