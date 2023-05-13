@@ -59,7 +59,7 @@ We recommend using a GPU (V100) to speed up the running process of our software.
 
 # Installation Guide
 
-Our software package can be downloaded from the following Github homepage: https://github.com/AtlasGao/GWAS\_DTL. This package contains the source code and instructions to reproduce the results represented in our paper. Our software would run on Windows and Ubuntu, but we suggest using Linux system which is easier for environment configuration.
+This package contains the source code and instructions to reproduce the results represented in our paper. Our software would run on Windows and Ubuntu, but we suggest using Linux system which is easier for environment configuration.
 
 Conda –install requirements.txt
 
