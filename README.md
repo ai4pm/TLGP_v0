@@ -2,15 +2,15 @@
 
 # Software Description
 
-Here are the software scripts implementing our deep transfer learning
-method for multi-ancestral clinico-genomic prediction of diseases and
+Here are the software scripts implementing our machine learning
+methods for multi-ancestral clinico-genomic prediction of diseases and
 reproducing the results described in the manuscript.
 
 # Software Structure
 
 This software contains three major components:
 
--   data: it contains the instructions for downloading the 14 synthetic
+-   data: it contains the instructions for downloading the synthetic
     datasets used in our experiments, as well as the SNPs and clinical
     variables used in each disease study.
 
@@ -21,7 +21,7 @@ This software contains three major components:
     synthetic datasets, to generate the plots shown in Fig 2 and Table
     4.
 
--   Simulation1: this directory contains the scripts used for 8
+-   Simulation2: this directory contains the scripts used for 8
     synthetic datasets, to generate the plots shown in Fig S1 and Table
     S1.
 
@@ -119,8 +119,7 @@ Our software has been tested on the following software version.
 
 ## Hardware requirements
 
-We recommend using a GPU (V100) to speed up the running process of our
-software.
+We recommend using a GPU (V100) for optimal software performance.
 
 # Installation Guide
 
