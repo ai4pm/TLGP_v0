@@ -177,8 +177,8 @@ xlwt==1.3.0
 
 ## Instructions to run each experiment.
 
-The python scripts used to generate the data of Table 3, Table 4, and
-Figure 1 in our paper can be found in the following folder:
+The python scripts used to generate the data of Table 3, Table 4, Figure 1 and
+Figure 2 in our paper can be found in the following folder:
 
 cd /TLGP/scripts/DL
 
