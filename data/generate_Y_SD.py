@@ -7,8 +7,16 @@ pd.set_option('max_colwidth', 400)
 
 def generateY_h(minor='AFR', rho=0.8, h2=0.5):
 
-    x_1, x_2 = np.random.uniform(-1, 1, (10000, 500)), np.random.uniform(-1, 1, (2000, 500))
-    df1, df2 = pd.DataFrame(x_1), pd.DataFrame(x_2)
+    f_path = "../../data/SD_data/EUR_{}_{}_h{}.mat".format(minor, rho, h2)
+    A = loadmat(f_path)
+    R = A['R']
+    X = A['X'].astype('float32')
+    df = pd.DataFrame(X)
+    df['R'] = R
+    df1, df2 = df[df['R']=='EUR'], df[df['R']==minor]
+    df1 = df1.drop(columns='R')
+    df2 = df2.drop(columns='R')
+    print(f_path, df1.shape, df2.shape)
 
     N = df1.shape[1]
     x1 = truncnorm.rvs(-1, 1, size=N)
