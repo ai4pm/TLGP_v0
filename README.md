@@ -88,9 +88,9 @@ Our software has been tested on the following software version.
 
   Xlwings 0.15.8         The Python        <https://pypi.org/project/xlwings/>
                          community         
-
   Xlwt 1.3.0             The Python        <https://pypi.org/project/xlwt/>
-                         community         
+                         community
+
   -----------------------------------------------------------------------------------------------------------------
 
 ## Hardware requirements
