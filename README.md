@@ -6,23 +6,6 @@ Here are the software scripts implementing our machine learning
 methods for multi-ancestral clinico-genomic prediction of diseases and
 reproducing the results described in the manuscript.
 
-# Software Structure
-
-This software contains three major components:
-
--   data: it contains the instructions for downloading the synthetic
-    datasets used in our experiments, as well as the SNPs and clinical
-    variables used in each disease study.
-
--   scripts: this directory contains the scripts to generate the data
-    shown in the plots of Fig 1 and Table 3.
-
--   synthetic_data: this directory contains the scripts used for 16
-    synthetic datasets (case/control ratio=1:1).
-
--   synthetic_data_star: this directory contains the scripts used for 16
-    synthetic datasets (case/control ratio=1:4).
-
   ---------------------------------------------------------------------------------
   **Entity**    **Path/location**                      **Note**
   ------------- -------------------------------------- ----------------------------
