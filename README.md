@@ -3,8 +3,7 @@
 # Software Description
 
 Here are the software scripts implementing our machine learning
-methods for multi-ancestral clinico-genomic prediction of diseases and
-reproducing the results described in the manuscript.
+methods for multi-ancestral clinico-genomic prediction of diseases.
 
   ---------------------------------------------------------------------------------
   **Entity**    **Path/location**                      **Note**
