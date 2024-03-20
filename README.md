@@ -17,13 +17,11 @@ This software contains three major components:
 -   scripts: this directory contains the scripts to generate the data
     shown in the plots of Fig 1 and Table 3.
 
--   Simulation1: this directory contains the scripts used for 8
-    synthetic datasets, to generate the plots shown in Fig 2 and Table
-    4.
+-   synthetic_data: this directory contains the scripts used for 16
+    synthetic datasets (case/control ratio=1:1).
 
--   Simulation2: this directory contains the scripts used for 8
-    synthetic datasets, to generate the plots shown in Fig S1 and Table
-    S1.
+-   synthetic_data_star: this directory contains the scripts used for 16
+    synthetic datasets (case/control ratio=1:4).
 
   ---------------------------------------------------------------------------------
   **Entity**    **Path/location**                      **Note**
