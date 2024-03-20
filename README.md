@@ -149,73 +149,7 @@ xlwings==0.15.8
 
 xlwt==1.3.0
 
-# Demo
 
-## Instructions to run each experiment.
-
-The python scripts used to generate the data of Table 3, Table 4, Figure 1 and
-Figure 2 in our paper can be found in the following folder:
-
-cd /TLGP/scripts/DL
-
-python Lung_cancer_European_EastAsian_500.py
-
-python Prostate_cancer_European_AfricanAmerican_500.py
-
-python Alzheimer_European_LatinAmerican.py
-
-python Alzheimer_European_AfricanAmerican.py
-
-cd /TLGP/scripts/LR
-
-python Lung_cancer_European_EastAsian_500.py
-
-python Prostate_cancer_European_AfricanAmerican_500.py
-
-python Alzheimer_European_LatinAmerican.py
-
-python Alzheimer_European_AfricanAmerican.py
-
-cd /TLGP/simulation1/DL
-
-python \*py
-
-cd /TLGP/simulation/
-
-python SD_LR.py
-
-The python scripts used to generate the data of Table S1 and Figure S1
-in our paper can be found in the following folder:
-
-cd /TLGP/simulation2/DL
-
-python \*py
-
-cd /TLGP/simulation2/
-
-python SD_LR.py
-
-After the execution, the result will be printed in the console.
-
-## Expected output
-
-The output of each script will be a data frame with 7 columns and 20
-rows. Each row represents a single run, and the 7 columns show the
-result of different machine learning schemes.
-
-# Instructions for Use
-
-## How to run the software
-
-To run our software with different diseases, you need to download our
-dataset from the FigureShare server and put it under the TLGP/data/
-folder. You can simply specify the task you want to run by redirecting
-to the location of the script of a specific task.
-
-## Reproduction instructions
-
-The key point to reproduce the result in our paper is to follow the
-configuration process strictly.
 
 ## Authors
 
