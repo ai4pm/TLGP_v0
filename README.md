@@ -70,12 +70,7 @@ Our software has been tested on the following software version.
   REAGENT or RESOURCE    SOURCE            IDENTIFIER
 
   Python 3.7             Python Software   <https://www.python.org/download/releases/2.7/>
-                         Foundation        
-
-  Computational Facility The National      <https://www.nics.tennessee.edu/computing-resources/acf>
-                         Institute for     
-                         Computational     
-                         Sciences          
+                         Foundation               
 
   Numpy 1.15.4           Tidelift, Inc     <https://libraries.io/pypi/numpy/1.15.4>
 
